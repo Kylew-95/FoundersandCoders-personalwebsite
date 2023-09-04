@@ -12,7 +12,7 @@ body {
 }
 .section1 {
   height: 100vh;
-  width: 100vw;
+
   position: relative;
 }
 
@@ -76,7 +76,9 @@ body {
   align-items: center;
   position: absolute;
   font-size: 2rem;
-  border: #000000 5px solid;
+  font-weight: 500;
+  border: #000000 3px solid;
   padding: 1rem;
-    border-radius: 1rem;
+  border-radius: 1rem;
+  background-color: #ffffff56;
 }
