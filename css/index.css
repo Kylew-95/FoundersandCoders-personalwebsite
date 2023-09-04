@@ -3,12 +3,59 @@
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
-  
 }
 
-#mainHeader {
-  color: #000000;
-  padding: 10px;
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+.section1 {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+.Im-Kyle {
+  position: absolute;
+  width: 895px;
+  left: 4vw;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 64px;
   text-align: center;
-  margin-bottom: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.video-onboard-intro .span {
+  color: #000000;
+}
+
+.video-onboard-intro .text-wrapper-2 {
+  color: #ff0000;
+}
+
+.video-onboard-intro .text-wrapper-3 {
+  color: #000000;
+  font-size: 36px;
+}
+
+.video-onboard-intro .hero-avatar {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  top: 14vh;
+  left: 55vw;
+  object-fit: cover;
 }
