@@ -38,20 +38,31 @@
 }
 
 .main-section .overlap-group {
-  position: absolute;
-  width: 1184px;
-  height: 400px;
-  top: 0;
-  left: 118px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65vw;
+  height: 40vh;
+  margin: 0 auto;
   background-color: #ffffffc9;
-  border-radius: 38px;
+
+  border: 10px solid transparent;
+  border-image: linear-gradient(
+    90deg,
+    #6fd7a3 25%,
+    #8ac9fe 50%,
+    #fe646f 75%,
+    #f68157 100%
+  );
+  border-image-slice: 1;
 }
 
 .main-section .text-wrapper {
   position: absolute;
   width: 1128px;
-  top: 50px;
-  left: 38px;
+  top: 4vh;
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
   color: #000000;
